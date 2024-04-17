@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapls.com/css2?family=outfit:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'outfit',sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+}
+.card{
+    color: #fff;
+    padding: 40px;
+
+.card p{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}  
+.card-container {
+    padding: 40px;
+}
+
+}
+.card-1{
+ background: hsl(31,77%,52%);
+ border-top-left-radius: 15px;
+ border-bottom-left-radius: 15px;  
+}
+
+
+.card-2{
+ background: hsl(152, 91%, 29%);
+ border-top-right-radius: 0px;
+ border-bottom-left-radius: 0px;
+}
+
+.card-3{
+ background: hsl(179, 100%, 13%); 
+ border-top-right-radius: 15px;
+ border-bottom-right-radius: 15px; 
+}
+    
+.btn-1 {
+    color: hsl(0, 17%, 39);
+}
+
+.btn-2 {
+    color: hsl(155, 40%, 21%);
+}
+
+.btn-3 {
+    color: hsla(179, 100%, 13%);
+}
+
+.button {
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 120px;
+    border-radius: 50px;
+    background: white;
+}
+
+.button:hover{
+    background: transparent;
+    color: #fff;
+}
+@media(max-width:760px){
+.container{
+    flex-direction: column;
+    margin: 20px;
+}  
+.card-1{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+
+} 
+.card-3{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 15px;
+}
+}
